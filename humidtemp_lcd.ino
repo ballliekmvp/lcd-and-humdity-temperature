@@ -7,11 +7,6 @@ LiquidCrystal_I2C lcd(0x27, 16, 2); // I2C address 0x27, 16 column and 2 rows
 
 
 DHT dht(DHTPIN, DHTTYPE);
-
-
-
-
-
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
